@@ -4,10 +4,11 @@ These are training materials for Intel Summer Internship School.
 
 ## Step 0. Acquiring Data Parallel C++ compiler
 
-There're two primary sources to get DPC++ compiler:
+There're three primary sources to get DPC++ compiler:
 
 1) DPC++ is part of oneAPI Base Toolkit: https://software.intel.com/content/www/us/en/develop/tools/oneapi/all-toolkits.html#base-kit
 2) DPC++ is an open-source project, that can be built from scratch: https://intel.github.io/llvm-docs/GetStartedGuide.html
+3) Intel DevCloud: https://www.intel.com/content/www/us/en/forms/idz/devcloud-enrollment/oneapi-request.html
 
 You also need to clone this repository to be able to interact with the code:
 
@@ -546,4 +547,12 @@ this path.
    - 2021: https://www.iwocl.org/iwocl-2021/conference-program/
 5. List of resources, curated by James Reinders: https://jamesreinders.com/dpcpp/
 6. oneAPI GPU Optimization Guide: https://software.intel.com/content/www/us/en/develop/documentation/oneapi-gpu-optimization-guide/top/introduction.html
-
+7. oneAPI samples: https://github.com/shuoniu-intel/oneAPI-samples/tree/master/DirectProgramming
+8. oneAPI-DirectProgramming (contains benchmarks in CUDA, OpenMP, HIP and SYCL): https://github.com/zjin-lcf/oneAPI-DirectProgramming
+9. Other SYCL implementations:
+   - hipSYCL: https://github.com/illuhad/hipSYCL
+   - ComputeCpp: https://developer.codeplay.com/products/computecpp/ce/guides/
+   - triSYCL: https://github.com/triSYCL/triSYCL
+10. DPC++ execution graph overview:
+    - https://intel.github.io/llvm-docs/doxygen/group__sycl__graph.html
+    - https://intel.github.io/llvm-docs/doxygen/classcl_1_1sycl_1_1detail_1_1Scheduler.html
